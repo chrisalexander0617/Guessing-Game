@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="guess_game.css">
+
+</head>
+
+<body>
+
+  <div class='container'>
+
+    <button type="button" name="button" id='startgame'>START</button>
+
+    <h1 id='title'>
+      GUESS GAME
+    </h1>
+
+    <p id='dir'>Guess a number between 1 and 20</p>
+
+    <div class='player-input'>
+      <input id='text' type="text" maxlength="2" required>
+      <button class='activ' id='button'>SUBMIT</button>
+    </div>
+
+    <div class='compdisplay'>
+
+      <div class="main-message">
+        <h1 id='message'></h1>
+      </div>
+
+      <div class="pelement">
+        <p id='statement'></p>
+      </div>
+
+
+    </div>
+    <button id='restart' type="button" name="button">RESTART</button>
+  </div>
+
+
+
+  <script src="guess_game.js">
+
+  </script>
+</body>
+
+</html>
