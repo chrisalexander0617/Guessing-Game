@@ -5,6 +5,7 @@ body {
   padding-top: 40px;
   font-family: arial;
   text-transform: uppercase;
+  background-color: #444444;
 }
 
 .container {
@@ -15,6 +16,13 @@ body {
   margin: 0 auto;
   padding-top: 30px;
   border-radius: 10px;
+}
+
+.directions {
+  height: 60px;
+  width:auto;
+  background-color: orange;
+  padding:10px;
 }
 
 #startgame {
@@ -30,7 +38,7 @@ body {
   transition: .2s ease-in;
 }
 
-#startgame:focus {
+#startgame:hover{
   color: orange;
   transform: scale(1.1);
   cursor: pointer;
@@ -43,6 +51,7 @@ body {
   margin: 0 auto;
   border-radius: 10px;
   transition: .2s ease-in-out;
+  margin-bottom:0px;;
 }
 
 #title:hover {
@@ -53,10 +62,10 @@ body {
   color: black;
   width: 50%;
   margin: 0 auto;
-  margin-top: 30px;
   font-weight: bold;
   font-size: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
+  padding-top:7px;
 }
 
 .player-input {

@@ -1,4 +1,5 @@
 document.getElementById('startgame').onclick = function startGame() {
+  document.getElementById('dir').innerHTML = 'Guess a number between 1 and 20';
 
   console.log('user started game');
 
