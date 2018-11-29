@@ -14,7 +14,7 @@ body {
   height: 530px;
   width: 300px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 36px;
   border-radius: 10px;
 }
 
@@ -138,4 +138,33 @@ body {
 #restart:hover {
   color: orange;
   cursor: pointer;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+.container {
+  width: 100%;
+  padding:0;
+  height: 100vh;
+  }
+body {
+  padding-top:0px;
+}
+
+
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    padding-bottom:0px;
+    padding-top:50px;
+    }
+    body {
+      padding:0px;
+    }
+
+
 }
