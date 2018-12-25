@@ -53,7 +53,7 @@ $('#easy').on('click', function startEasy(){
         $(resultDisplay).text('WRONG: TOO HIGH')
       }
     else if(userInputInt = compChoiceEasy){
-        return $(resultDisplay).text('CORRECT')
+        $(resultDisplay).text('CORRECT')
       }
   
   })
@@ -100,7 +100,7 @@ $('#hard').on('click', function startHard(){
       $(resultDisplay).text('WRONG: TOO HIGH')
     }
      else if(userInputInt = compChoiceHard){
-      return $(resultDisplay).text('CORRECT')
+      $(resultDisplay).text('CORRECT')
     }
   
   })
